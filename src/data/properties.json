@@ -1,0 +1,241 @@
+{
+    "properties": [
+        {
+            "id": "prop1",
+            "type": "House",
+            "bedrooms": 3,
+            "price": 750000,
+            "tenure": "Freehold",
+            "description": "This attractive three-bedroom semi-detached family home offers comfortable living with spacious rooms. It is ideally located within 0.5 miles of Petts Wood station, which offers fast trains to London. Within walking distance, you'll find local shops, schools, bus routes, and National Trust woodland. The property features two reception rooms, a large fitted kitchen/breakfast room, and a conservatory. The utility room and cloakroom add to the convenience. The first floor consists of three bedrooms and a family bathroom with a separate WC. Additional features include double glazing, gas central heating, and a well-presented interior.",
+            "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+            "picture": "/images/prop1pic1small.jpg",
+            "floorPlan":"/images/prop1pic1small.jpg",
+            "pictures": [
+                "/images/prop1pic1small.jpg",
+                "/images/prop1pic2.jpeg",
+                "/images/prop1pic3.jpeg",
+                "/images/prop1pic4.jpeg",
+                "/images/prop1pic5.jpeg",
+                "/images/prop1pic6.jpeg"
+              ],
+            "url": "/property/prop1",
+            "added": {
+                "month": "October",
+                "day": 12,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop2",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 399995,
+            "tenure": "Freehold",
+            "description": "This well-presented two-bedroom, two-bathroom garden flat is in excellent condition throughout. The property features two double bedrooms, providing ample space for families or professionals. The open-plan living area opens to a private garden, perfect for outdoor relaxation and entertaining. The flat also boasts modern amenities and fittings, ensuring a comfortable lifestyle. Located close to local shops, schools, and transport links, this property offers convenience and modern living in Orpington. The excellent decorative order throughout ensures the flat is ready to move in and enjoy.",
+            "location": "Crofton Road Orpington BR6",
+            "picture": "/images/prop2pic1.jpeg",
+            "pictures": [
+                "/images/prop2pic1.jpeg",
+                "/images/prop2pic2.jpeg",
+                "/images/prop2pic3.jpeg",
+                "/images/prop2pic4.jpeg",
+                "/images/prop2pic5.jpeg",
+                "/images/prop2pic6.jpeg"
+              ],
+            "url": "/property/prop2",
+            "added": {
+                "month": "September",
+                "day": 14,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 850000,
+            "tenure": "Leasehold",
+            "description": "This beautifully presented four-bedroom detached house is located in a quiet cul-de-sac, offering a peaceful setting while being close to Bromley's amenities. The spacious property features a large living area, a modern kitchen, and well-sized bedrooms, ideal for family living. The house also boasts a large garden, perfect for children to play or for hosting gatherings. The property has been well-maintained, providing both comfort and style. It is located within easy reach of local schools, shops, and public transport, making it an excellent choice for a family home in Bromley.",
+            "location": "Hillside Road, Bromley BR2",
+            "picture": "/images/prop3pic1.jpeg",
+            "url": "/property/prop3",
+            "pictures": [
+                "/images/prop3pic1.jpeg",
+                "/images/prop3pic2.jpeg",
+                "/images/prop3pic3.jpeg",
+                "/images/prop3pic4.jpeg",
+                "/images/prop3pic5.jpeg",
+                "/images/prop3pic6.jpeg"
+              ],
+            "added": {
+                "month": "August",
+                "day": 22,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop4",
+            "type": "Flat",
+            "bedrooms": 1,
+            "price": 275000,
+            "tenure": "Leasehold",
+            "description": "This modern one-bedroom apartment is located in a newly developed block in Sidcup. The flat is designed with contemporary living in mind, offering a bright and airy open-plan living area. The apartment includes a spacious bedroom with built-in wardrobes, a stylish bathroom, and a fully equipped kitchen. The development provides secure entry and parking, adding to the appeal. Located on the High Street, the flat benefits from excellent local amenities, including shops, restaurants, and public transport links, making it a perfect choice for professionals or couples looking for modern living in Sidcup.",
+            "location": "High Street, Sidcup DA14",
+            "picture": "/images/prop4pic1.jpeg",
+            "url": "/property/prop4",
+            "pictures": [
+                "/images/prop4pic1.jpeg",
+                "/images/prop4pic2.jpeg",
+                "/images/prop4pic3.jpeg",
+                "/images/prop4pic4.jpeg",
+                "/images/prop4pic5.jpeg",
+                "/images/prop4pic6.jpeg"
+              ],
+            "added": {
+                "month": "July",
+                "day": 18,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "Cottage",
+            "bedrooms": 2,
+            "price": 450000,
+            "tenure": "Freehold",
+            "description": "Set in a picturesque rural location, this charming two-bedroom cottage offers a peaceful escape from the hustle and bustle of city life. The cottage is full of character, with period features such as exposed beams and a cozy fireplace, providing a warm and inviting atmosphere. The property includes a well-sized living room, a country-style kitchen, and two comfortable bedrooms. The exterior features a beautiful garden, perfect for outdoor activities and enjoying the natural surroundings. Located in Sevenoaks, this property is ideal for those looking to enjoy a tranquil lifestyle while still being within reach of the town's amenities.",
+            "location": "Country Lane, Sevenoaks TN13",
+            "picture":  "/images/prop5pic1.jpg",
+            "pictures": [
+                "/images/prop5pic1.jpg",
+                "/images/prop5pic2.jpg",
+                "/images/prop5pic3.jpg",
+                "/images/prop5pic4.jpg"
+              ],
+            "url": "/property/prop5",
+            "added": {
+                "month": "June",
+                "day": 10,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 1200000,
+            "tenure": "Freehold",
+            "description": "This spacious five-bedroom detached house is situated in a highly sought-after area of Chislehurst. With a large private garden and multiple living spaces, it offers ample room for a growing family. The property includes a well-appointed kitchen, a large living room, and a separate dining area, all designed for comfortable living and entertaining. Upstairs, the five bedrooms offer plenty of space, while the well-maintained garden provides a peaceful retreat. The house is located in a desirable neighborhood with easy access to local schools, shops, and transport links, making it a perfect family home in Chislehurst.",
+            "location": "Oakwood Drive, Chislehurst BR7",
+            "picture":"/images/prop6pic1.jpeg",
+            "url": "/property/prop6",
+            "pictures": [
+                "/images/prop6pic1.jpeg",
+                "/images/prop6pic2.jpeg",
+                "/images/prop6pic3.jpeg",
+                "/images/prop6pic4.jpeg",
+                "/images/prop6pic5.jpeg",
+                "/images/prop6pic6.jpeg"
+              ],
+            "added": {
+                "month": "May",
+                "day": 14,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "Flat",
+            "bedrooms": 3,
+            "price": 500000,
+            "tenure": "Leasehold",
+            "description": "This bright and spacious three-bedroom flat offers a prime location in Beckenham, close to shops, schools, and excellent transport links. The flat boasts a large living area with plenty of natural light, making it perfect for both relaxation and entertaining. The modern kitchen is well-equipped, and each of the three bedrooms is generously sized. The property also includes a private balcony, offering outdoor space for enjoying the fresh air. The flat is ideal for families, professionals, or anyone seeking a comfortable and convenient home in Beckenham.",
+            "location": "Park Avenue, Beckenham BR3",
+            "picture":"/images/prop7pic1.jpeg",
+            "url": "/property/prop7",
+            "pictures": [
+                "/images/prop7pic1.jpeg",
+                "/images/prop7pic2.png",
+                "/images/prop7pic3.png",
+                "/images/prop7pic4.png",
+                "/images/prop7pic5.png"
+              ],
+            "added": {
+                "month": "April",
+                "day": 23,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop8",
+            "type": "House",
+            "bedrooms": 3,
+            "price": 675000,
+            "tenure": "Freehold",
+            "description": "This charming three-bedroom semi-detached house offers a comfortable and welcoming atmosphere, making it a great family home. The property features a spacious living room, a fully equipped kitchen, and a dining area. Upstairs, there are three well-sized bedrooms, all with ample storage space. The house is situated in a quiet neighborhood, close to local schools, shops, and public transport, offering convenience and accessibility. The property also benefits from a private garden, perfect for outdoor entertaining or relaxing. This home offers a great opportunity for those looking to settle in the Orpington area.",
+            "location": "Elm Grove, Orpington BR6",
+            "picture": "/images/prop8pic5.jpeg",
+            "url": "/property/prop8",
+            "pictures": [
+                "/images/prop8pic1.jpeg",
+                "/images/prop8pic2.jpeg",
+                "/images/prop8pic3.jpeg",
+                "/images/prop8pic4.jpeg",
+                "/images/prop8pic5.jpeg",
+                "/images/prop8pic6.jpeg"
+              ],
+            "added": {
+                "month": "March",
+                "day": 12,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop9",
+            "type": "Bungalow",
+            "bedrooms": 2,
+            "price": 475000,
+            "tenure": "Freehold",
+            "description": "This lovely two-bedroom bungalow is located in a quiet cul-de-sac in Sidcup, providing a peaceful and private living environment. The bungalow features a spacious living room with a large window allowing plenty of natural light, creating a bright and airy space. The kitchen is modern and fully equipped, while the two bedrooms offer comfortable accommodation. The bungalow benefits from a well-maintained garden, perfect for outdoor activities. Located in a sought-after area, it is close to local amenities and transport links, making it an ideal property for those seeking a relaxed, low-maintenance lifestyle.",
+            "location": "Woodbine Close, Sidcup DA15",
+            "picture": "/images/prop9pic1.jpeg",
+            "url": "/property/prop9",
+            "pictures": [
+                "/images/prop9pic1.jpeg",
+                "/images/prop9pic2.jpeg",
+                "/images/prop9pic3.jpeg",
+                "/images/prop9pic4.jpeg",
+                "/images/prop9pic5.jpeg"
+              ],
+            "added": {
+                "month": "February",
+                "day": 10,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop10",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 350000,
+            "tenure": "Leasehold",
+            "description": "This stylish two-bedroom apartment offers modern living in a popular residential area of Bromley. The flat features a spacious open-plan living and dining area, perfect for entertaining or relaxing. The kitchen is fitted with high-quality appliances, and the two bedrooms are generously sized, with the master bedroom offering built-in wardrobes. The property also includes a modern bathroom and ample storage space. The location offers easy access to local shops, schools, and public transport, making it an ideal choice for professionals or small families looking for a convenient, stylish home.",
+            "location": "Market Square, Bromley BR1",
+            "picture": "/images/prop10pic1.jpeg",
+            "url": "/property/prop10",
+            "pictures": [
+                "/images/prop10pic1.jpeg",
+                "/images/prop10pic2.jpeg",
+                "/images/prop10pic3.jpeg",
+                "/images/prop10pic4.jpeg",
+                "/images/prop10pic5.jpeg",
+                "/images/prop10pic6.jpeg"
+              ],
+            "added": {
+                "month": "January",
+                "day": 25,
+                "year": 2022
+            }
+        }
+    ]
+}
