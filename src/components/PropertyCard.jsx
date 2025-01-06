@@ -1,15 +1,16 @@
 import React from 'react';
-import { ListGroup } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { useFavorites } from '../components/FavoritesContext';
 
 function PropertyCard({ property }) {
+    // Get addFavorite function from context to add property to favorites
     const { addFavorite } = useFavorites();
 
     return (
         <Card className="shadow-lg rounded" style={{ width: '100%' }}>
+            {/* Property image */}
             <Card.Img
                 variant="top"
                 src={property.picture}
@@ -18,9 +19,11 @@ function PropertyCard({ property }) {
                 style={{ height: '300px', objectFit: 'cover' }}
             />
             <Card.Body className="text-secondary">
+                {/* Property type as title */}
                 <Card.Title className="fw-bold text-success fs-5">{property.type}</Card.Title>
             </Card.Body>
             <Card.Body className="text-secondary">
+                {/* Property details: location, price, bedrooms, etc. */}
                 <Card.Text>
                     <strong>Location:</strong> {property.location}
                 </Card.Text>
@@ -38,9 +41,11 @@ function PropertyCard({ property }) {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
+                {/* Link to view more property details */}
                 <Link to={`/property/${property.id}`} className="btn btn-success me-3 fw-bold">
                     View More
                 </Link>
+                {/* Button to add the property to favorites */}
                 <Button
                     className="btn btn-success fw-bold"
                     onClick={() => addFavorite(property)}

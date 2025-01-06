@@ -8,10 +8,11 @@ import Tab from 'react-bootstrap/Tab';
 import { useFavorites } from '../components/FavoritesContext';
 
 function DetailsPage({ properties }) {
+    //use the importerd FavoritesContext 
     const { addFavorite } = useFavorites();
     const { id } = useParams();
     const property = properties.find((prop) => prop.id === id);
-
+    // If the details couldn't find
     if (!property) {
         return <h1>Property not found</h1>;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+//favouries icon to view the page
 function Favspan() { 
   return (
     <span>

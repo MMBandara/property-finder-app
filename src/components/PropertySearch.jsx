@@ -2,34 +2,41 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function PropertySearch({ properties, onSearch }) {
+  // State to store the selected filters
   const [filters, setFilters] = useState({});
 
+  // Handle changes in filter inputs
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
     setFilters((prevFilters) => ({
       ...prevFilters,
+      // Set value of the filter (empty string if no value, parse price as number)
       [name]: value === '' ? '' : name === 'price' ? parseInt(value) : value,
     }));
   };
 
+  // Log filters for debugging
   console.log(filters);
 
+  // Handle form submission (search)
   const handleSubmit = (e) => {
-    e.preventDefault();
-    onSearch(filters);
+    e.preventDefault(); // Prevent default form submission
+    onSearch(filters); // Pass filters to parent component for searching
   };
 
+  // Get unique values for dropdown options (e.g., types, bedrooms, etc.)
   const getUniqueValues = (key) => {
     return Array.from(new Set(properties.map((property) => property[key])));
   };
 
   return (
     <form
-      onSubmit={handleSubmit}
+      onSubmit={handleSubmit} // Handle form submit
       className="container mt-4 p-4 border rounded shadow"
       style={{ backgroundColor: '#e9f5f8' }}
     >
       <div className="row g-3">
+        {/* Property Type filter */}
         <div className="col-md-3">
           <label
             htmlFor="type"
@@ -42,7 +49,7 @@ function PropertySearch({ properties, onSearch }) {
             id="type"
             name="type"
             className="form-select"
-            onChange={handleFilterChange}
+            onChange={handleFilterChange} // Trigger filter change on selection
             style={{
               backgroundColor: '#d1f2eb',
               borderColor: '#16a085',
@@ -58,6 +65,7 @@ function PropertySearch({ properties, onSearch }) {
           </select>
         </div>
 
+        {/* Property Bedrooms filter */}
         <div className="col-md-3">
           <label
             htmlFor="bedrooms"
@@ -70,7 +78,7 @@ function PropertySearch({ properties, onSearch }) {
             id="bedrooms"
             name="bedrooms"
             className="form-select"
-            onChange={handleFilterChange}
+            onChange={handleFilterChange} // Trigger filter change on selection
             style={{
               backgroundColor: '#d1f2eb',
               borderColor: '#16a085',
@@ -86,6 +94,7 @@ function PropertySearch({ properties, onSearch }) {
           </select>
         </div>
 
+        {/* Max Price filter */}
         <div className="col-md-3">
           <label
             htmlFor="price"
@@ -98,7 +107,7 @@ function PropertySearch({ properties, onSearch }) {
             id="price"
             name="price"
             className="form-select"
-            onChange={handleFilterChange}
+            onChange={handleFilterChange} // Trigger filter change on selection
             style={{
               backgroundColor: '#d1f2eb',
               borderColor: '#16a085',
@@ -106,6 +115,7 @@ function PropertySearch({ properties, onSearch }) {
             }}
           >
             <option value="">Select Max Price</option>
+            {/* Price options */}
             <option value="100000">$100000</option>
             <option value="200000">$200000</option>
             <option value="300000">$300000</option>
@@ -119,6 +129,7 @@ function PropertySearch({ properties, onSearch }) {
           </select>
         </div>
 
+        {/* Property Tenure filter */}
         <div className="col-md-3">
           <label
             htmlFor="tenure"
@@ -131,7 +142,7 @@ function PropertySearch({ properties, onSearch }) {
             id="tenure"
             name="tenure"
             className="form-select"
-            onChange={handleFilterChange}
+            onChange={handleFilterChange} // Trigger filter change on selection
             style={{
               backgroundColor: '#d1f2eb',
               borderColor: '#16a085',
@@ -148,6 +159,7 @@ function PropertySearch({ properties, onSearch }) {
         </div>
       </div>
 
+      {/* Submit Button */}
       <div className="mt-4">
         <button
           type="submit"
