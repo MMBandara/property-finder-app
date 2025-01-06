@@ -20,7 +20,7 @@ A property listing web application built using React, which allows users to sear
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/property-finder-app.git
+    git clone https://github.com/MMBandara/property-finder-app.git
     ```
 
 2. Navigate into the project folder:
