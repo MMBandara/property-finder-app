@@ -2,6 +2,7 @@ import React from 'react';
 import { useFavorites } from '../components/FavoritesContext';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 function FavoritesPage() {
   const { favorites, removeFavorite, clearFavorites } = useFavorites();
@@ -25,6 +26,9 @@ function FavoritesPage() {
                     <Button variant="danger" onClick={() => removeFavorite(property.id)}>
                       Remove
                     </Button>
+                    <Link to={`/property/${property.id}`} className="btn btn-success me-3 fw-bold ms-2">
+                      View More
+                    </Link>
                   </Card.Body>
                 </Card>
               </div>

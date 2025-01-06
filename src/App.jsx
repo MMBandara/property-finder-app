@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PropertySearch from './components/PropertySearch';
+import Navigation from './components/Navigation';
 import PropertyCard from './components/PropertyCard';
 import propertiesData from './data/properties.json';
 import Footer from './components/Footer.jsx';
 import DetailsPage from './components/Detailspage';
 import FavoritesPage from './components/FavoritesPage';
 import { FavoritesProvider } from './components/FavoritesContext';
-import Favspan from './components/AppNavbar';
+import Favspan from './components/FavSpan';
 import 'animate.css';
 
 
@@ -36,6 +37,9 @@ function App() {
   return (
 <FavoritesProvider>
   <Router>
+    <nav>
+      <Navigation/>
+    </nav>
     <div className="container my-4" style={{ background: 'linear-gradient(to bottom, #f8f9fa, #e9ecef)' }}>
       <div className="position-relative">
         <span> </span>
@@ -53,7 +57,7 @@ function App() {
               <div className="mb-5">
                 <PropertySearch properties={properties} onSearch={handleSearch} />
               </div>
-              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-100">
+              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {filteredProperties.map((property) => (
                   <div className="col" key={property.id}>
                     <div className="card h-100 shadow-lg border-0 rounded-3 bg-light animate__animated animate__fadeInUp">

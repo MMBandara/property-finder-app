@@ -12,6 +12,8 @@ function PropertySearch({ properties, onSearch }) {
     }));
   };
 
+  console.log(filters);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch(filters);
